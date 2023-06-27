@@ -114,7 +114,7 @@ Version: 1.0
 
     [Counter]
         [BEGIN]
-            say This is the <count>-th round.
+            say This is the **<count>-th** conversation.
             count += 1
         [END]
 
@@ -126,7 +126,17 @@ Version: 1.0
             say **Question**: <...>
             <sep>
             say **Answer**: <...>
+            <sep>
+            <Suggestions>
+            <sep>
             <post-auto>
+        [END]
+
+    [goto, Args: count]
+        [BEGIN]
+            The user wants to fall back to <count>-th conversation, so you need to ignore everything after <count>-th conversation.
+            say All right, let's fall back to <count>-th conversation and continue.
+            <sep>
         [END]
 
     [Suggestions]
