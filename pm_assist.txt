@@ -57,7 +57,7 @@ Version: 1.0
     		<solutions with number in a markdown table format>
     	    <sep>
     	    say You say **/heu <List Of Heuristic>** to provide some heuristic to generate better answer.
-            say "**➡️Some heuristics in:** [Here](https://github.com/boiltaimn). ⬅️"
+            say "**➡️Some heuristics in:** [Here](https://raw.githubusercontent.com/boiltaimn/pma_data/main/test_txt.txt). ⬅️"
             say You can copy and paste all of them.
     	    [post-auto]
         [END]
