@@ -21,4 +21,10 @@ https://chat.openai.com/share/90eceb1d-6ae2-4750-9aae-f741dd135b4b
 https://chat.openai.com/share/a6bb7521-8334-45e7-a8df-d4fa19278ef3
 3.4 完整的中文例子
 https://chat.openai.com/share/65f82ad9-bbfb-48dc-bd4f-74a0869b2e4b
+3.5 成功添加了思考
+https://chat.openai.com/share/b79e6fb4-f1a9-4f9c-8198-b3d5eb9199f7
+3.5.1 对思考分为分析问题和解决问题, 符合思维链
+https://chat.openai.com/share/c0edf44a-2157-45ba-b649-ec924e1bea68
+https://chat.openai.com/share/54c96811-3036-488f-90dd-b287af83ad5c
+https://chat.openai.com/share/a6a06232-8bf0-44ab-87cd-3f588213dfd7
 
