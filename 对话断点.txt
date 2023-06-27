@@ -27,4 +27,14 @@ https://chat.openai.com/share/b79e6fb4-f1a9-4f9c-8198-b3d5eb9199f7
 https://chat.openai.com/share/c0edf44a-2157-45ba-b649-ec924e1bea68
 https://chat.openai.com/share/54c96811-3036-488f-90dd-b287af83ad5c
 https://chat.openai.com/share/a6a06232-8bf0-44ab-87cd-3f588213dfd7
+3.5.1.1 把heuristic生成的东西定义为solution
+https://chat.openai.com/share/048ce554-1242-48ee-8ec5-a4a38cc9fb14
+https://chat.openai.com/share/14f6854a-dc18-4580-a40d-a4f0d08bef3e
+https://chat.openai.com/share/31e437d1-c6f6-41f3-a483-847cbc38a702
+https://chat.openai.com/share/3eac50e2-db71-420f-aa71-7b9c7aea064f
+https://chat.openai.com/share/7ebe8593-2827-472a-bfb7-91ca6ef2f492
+
+
+
+
 
