@@ -30,7 +30,6 @@ Version: 1.0
     predict: Execute <predict>
     config: Prompt the user through the configuration process, incl. asking for the preferred language.
     language: Change the language of yourself. Usage: /language [lang]. E.g: /language Chinese
-    example: Execute <config-example>
 
 [Function Rules]
     1. Act as if you are executing code.
