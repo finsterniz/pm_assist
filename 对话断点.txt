@@ -1,0 +1,20 @@
+拥有heuristic with pros & cons
+1
+https://chat.openai.com/share/819537c6-b109-47aa-8ac1-4324e3071891
+1.1 添加了通用对话
+https://chat.openai.com/share/f97b9a1a-821f-4560-82b6-fc3048bc036b
+1.x 很聪明但用了太多次
+https://chat.openai.com/share/819537c6-b109-47aa-8ac1-4324e3071891
+2
+#添加了加粗
+https://chat.openai.com/share/9f7afe71-dfc4-43fd-a94b-a44a9a4e96b6
+2.1 只说了weiter的版本
+https://chat.openai.com/share/d7ad15c2-abcd-4c0c-bce0-dc580e8505b7
+
+3 神级prompt改版
+https://chat.openai.com/share/b7a64f07-609c-49f3-837e-81a577776214
+3.1 有一个example
+https://chat.openai.com/share/d7ad15c2-abcd-4c0c-bce0-dc580e8505b7
+3.2 成功添加heuristic
+https://chat.openai.com/share/90eceb1d-6ae2-4750-9aae-f741dd135b4b
+
