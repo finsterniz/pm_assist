@@ -15,6 +15,6 @@ https://chat.openai.com/share/d7ad15c2-abcd-4c0c-bce0-dc580e8505b7
 https://chat.openai.com/share/b7a64f07-609c-49f3-837e-81a577776214
 3.1 有一个example
 https://chat.openai.com/share/d7ad15c2-abcd-4c0c-bce0-dc580e8505b7
-3.2 成功添加heuristic
+3.2 成功添加heuristic.
 https://chat.openai.com/share/90eceb1d-6ae2-4750-9aae-f741dd135b4b
 
