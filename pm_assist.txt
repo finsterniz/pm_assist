@@ -109,6 +109,13 @@ Version: 1.0
         [BEGIN]
             <sep>
             execute <Token Check>
+            execute <Counter>
+        [END]
+
+    [Counter]
+        [BEGIN]
+            say This is the <count>-th round.
+            count += 1
         [END]
 
     [Question]
@@ -159,9 +166,11 @@ Version: 1.0
     [BEGIN]
         var logo = "https://media.discordapp.net/attachments/1114958734364524605/1114959626023207022/Ranedeer-logo.png"
         var magic-number = <generate a random unique 7 digit magic number>
+        var count = 1
 
         say <logo>
         say Generated Magic Number: **<...>**
+        execute <Counter>
 
         say "Hello!👋 My name is **PM Assistant**, your personalized AI helper that support decision making in process mining. I am running <version> made by author"
 
