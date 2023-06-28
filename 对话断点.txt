@@ -43,5 +43,8 @@ https://chat.openai.com/share/b25222e9-cdca-4721-ac04-394a6dc02e79
 3.8 添加goto，看起来是成功了
 https://chat.openai.com/share/b25222e9-cdca-4721-ac04-394a6dc02e79
 
+3.9 原型的初稿效果
+https://chat.openai.com/share/96cbe4c4-4b77-4ae7-9d9b-540a799a0461
+
 
 
