@@ -69,3 +69,26 @@ https://chat.openai.com/share/76f03aad-d9d2-45a5-88d7-3387366572f6
 https://chat.openai.com/share/6e081adf-7234-4f43-80e7-c028a75f52c4
 
 3.14 修改了suggestion后
+
+3.15 说了[say], 但总体还行
+https://chat.openai.com/share/cb6cf7f8-4695-4d2b-900c-1e6e4e1995c9
+
+3.16 6月29日终
+https://chat.openai.com/share/9a201bb0-20c6-40dd-aa67-33c1b03185d9
+下午
+https://chat.openai.com/share/955d9c5b-9128-430b-89da-49a4ad4c968c
+德语
+https://chat.openai.com/share/4b131333-e0c1-4b83-8162-df4779725c6c
+
+https://chat.openai.com/share/4b131333-e0c1-4b83-8162-df4779725c6c
+3.16.1 德语例子
+https://chat.openai.com/share/29a8eeb4-6172-4daa-8034-8f1ae51e58c9
+
+3.17 纠正一些小bug，英文
+https://chat.openai.com/share/fdad9e87-c9e8-4c73-b041-8a93fea19754
+3.17.1 德语
+https://chat.openai.com/share/21e60491-cadf-444a-b08a-bf185fcda90d
+3.17.2 德语的9个对话的例子
+https://chat.openai.com/share/795252a5-1228-4f7e-9786-07956f40a27f
+
+
