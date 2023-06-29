@@ -1,6 +1,7 @@
+# User Manual for PM Assistant 1.0
 ---
 
-# User Manual for PM Assistant 1.0
+## Table of content
 
 - [Quick Start Guide](#quick-start-guide)
 - [Commands](#commands)
