@@ -3,10 +3,11 @@ PM Assistant is structured based on the repository: https://github.com/JushBJJ/M
 
 ## Quick Start Guide
 
-1. Click [this link](https://chat.openai.com/share/76f03aad-d9d2-45a5-88d7-3387366572f6) (**MUST HAVE CHATGPT PLUS**)(Deutsch Version click [hier](https://chat.openai.com/share/76f03aad-d9d2-45a5-88d7-3387366572f6))
+1. Click [this link](https://chat.openai.com/share/9a201bb0-20c6-40dd-aa67-33c1b03185d9) (**MUST HAVE CHATGPT PLUS**)(Deutsch Version click [hier](https://chat.openai.com/share/76f03aad-d9d2-45a5-88d7-3387366572f6))
 2. Press the "Continue this conversation" button
-3. Configure your preferences
-4. Start analysing
+3. Use /solve [A Case] to start analysing!
+
+## Here is a [Detailed Example](https://chat.openai.com/share/795252a5-1228-4f7e-9786-07956f40a27f) of how to use PM Assistant in german. Please note that the dialogue starts in the middle of the page.
 
 ---
 ## Commands
@@ -90,7 +91,7 @@ Example:
 
 ---
 ### 7. Manage context 
-**/goto <number i>**
+**/goto [number i]**
 
 Each round of conversation gets assigned a number. Using this command, you can return to a specific conversation and continue from there. This command enables GPT to forget the conversation that happened after the i-th conversation.
 
@@ -102,7 +103,7 @@ Example: # Go to the third conversation and implement the first solution
 
 ---
 ### 8.Edit configurations
-**/config <configuration>**
+**/config [configuration]**
 
 Used to set configurations.
 
@@ -112,7 +113,7 @@ Example:
 ```
 ---
 ### 9. Change language
-**/language**
+**/language [...]**
 
 Used to switch languages.
 
