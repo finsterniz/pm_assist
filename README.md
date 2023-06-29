@@ -1,5 +1,5 @@
 # User Manual for PM Assistant 1.0
-PM Assistant is structured based on the repository: https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/tree/main. Authorization has been obtained from the author of Mr. Ranedeer.
+PM Assistant is structured based on this [repository](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/tree/main). Authorization has been obtained from the author of Mr. Ranedeer.
 
 ## Quick Start Guide
 
