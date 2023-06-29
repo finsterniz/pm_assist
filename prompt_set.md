@@ -3,10 +3,20 @@
 ### A concrete example please click [here](https://chat.openai.com/share/1615a842-35f0-4cf5-b72a-d9312bc7499e).
 
 ---
+## Table of Contents
+
+1. [Functions](#functions)
+   - [1.1 /solve: Generate solution for a case](#solve)
+   - [1.2 /heuristic: Use Heuristics to solve a case](#heuristic)
+   - [1.3 /implement: Implements the selected solution, identified by its number](#implement)
+   - [1.4 /predict: Predicts the potential outcome of a solution](#predict)
+---
 ## Functions
 ### 1. /solve: Generate solution for a case
 
 You need to fill the [case].
+
+code:
 ```bash
 /solveYou are a process mining expert, your task is to provide some possible redesign ideas based on CASE, please follow the EXAMPLE below, and give some redesign ideas for the CASE I gave.
 ---
@@ -29,7 +39,9 @@ CASE
 
 Utilizes lesser-used GPT heuristics to generate solutions from alternate viewpoints.
 
-You don't need to fill anything, but use this prompt after /solve is already used.
+You don't need to fill anything, but use this prompt after /solve.
+
+code:
 
 ```bash
 Now you need to read some heuristics and determine which 5 of them are most applicable for the case.
@@ -69,6 +81,7 @@ TASK
 
 You need to fill the [Solution].
 
+code:
 ```bash
 TASK
 1 think about What conditions or steps need to be met if [Solution] is to be put into practice.
@@ -80,7 +93,7 @@ TASK
 
 You need to fill the [Solution].
 
-Example:
+code:
 ```bash
 Let's think about the potential results of [Solution].
 ---
