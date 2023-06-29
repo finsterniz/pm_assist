@@ -1,4 +1,21 @@
+---
+
 # User Manual for PM Assistant 1.0
+- [Quick Start Guide](#quick-start-guide)
+- [Detailed Example](#detailed-example)
+- [Commands](#commands)
+  - [Generate solution for a case](#1-generate-solution-for-a-case)
+  - [Use Heuristics to solve a case](#2-use-heuristics-to-solve-a-case)
+  - [Implements the selected solution, identified by its number](#3-implements-the-selected-solution-identified-by-its-number)
+  - [Predicts the potential outcome of a solution](#4-predicts-the-potential-outcome-of-a-solution)
+  - [Generate some questions](#5-generate-some-questions)
+  - [Ask a question](#6-ask-a-question)
+  - [Manage context](#7-manage-context)
+  - [Edit configurations](#8-edit-configurations)
+  - [Change language](#9-change-language)
+- [Feedback](#feedback)
+
+---
 PM Assistant is structured based on this [repository](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/tree/main). Authorization has been obtained from the author of Mr. Ranedeer.
 
 ## Quick Start Guide
@@ -124,3 +141,9 @@ Example:
 ```bash
 /language Deutsch
 ```
+---
+
+## Feedback
+I would be very grateful if you could help me fill out the survey:
+
+https://forms.gle/dTEFhRCafksPkTo19
