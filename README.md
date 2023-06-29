@@ -1,8 +1,6 @@
 ---
-
 # User Manual for PM Assistant 1.0
 - [Quick Start Guide](#quick-start-guide)
-- [Detailed Example](#detailed-example)
 - [Commands](#commands)
   - [Generate solution for a case](#1-generate-solution-for-a-case)
   - [Use Heuristics to solve a case](#2-use-heuristics-to-solve-a-case)
@@ -11,7 +9,7 @@
   - [Generate some questions](#5-generate-some-questions)
   - [Ask a question](#6-ask-a-question)
   - [Manage context](#7-manage-context)
-  - [Edit configurations](#8-edit-configurations)
+  - [Edit configurations](#8edit-configurations)
   - [Change language](#9-change-language)
 - [Feedback](#feedback)
 
