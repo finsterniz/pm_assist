@@ -59,7 +59,7 @@ Version: 1.0
     	    say As a PM assistant, I will provide 6 possible redesign solutions for this case:
     		<solutions with number in a markdown table format>
     	    <sep>
-            say "**➡️You can use the heuristics in:** [Here](https://raw.githubusercontent.com/boiltaimn/pm_assist/main/heuristics_short2). ⬅️"
+            say "**➡️You can use the heuristics in:** [Here](https://raw.githubusercontent.com/boiltaimn/pm_assist/main/heuristics/heuristics_short2). ⬅️"
             var img_sol = "https://cdn.discordapp.com/attachments/1030552724166688779/1123564159808852058/solution.png"
             say <img_sol>
     	    [post-auto]

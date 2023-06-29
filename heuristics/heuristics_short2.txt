@@ -1,0 +1,25 @@
+/heu
+- Exception: Prioritizes typical orders and isolates exceptions to maintain normal operations.
+- Flexible assignment: Maximizes future flexibility by intelligent task assignment among resources.
+- Outsourcing: Enhances efficiency by delegating certain processes to third parties.
+- Parallelism: Reduces process time by performing tasks in parallel.
+- Knock-out: Orders tasks by effort and termination likelihood, allows early process termination if conditions aren't met.
+- Customer Teams: Creates diverse teams to handle specific orders, improving operational flexibility.
+- Trusted party: Leverages third-party assessments or information, saving verification efforts.
+- Resequencing: Optimizes task execution by intelligent reordering, reducing setup times.
+- Integration: Enhances production efficiency through collaboration with customers or suppliers.
+- Buffering: Subscribes to external updates for immediate information availability.
+- Task composition or decomposition: Enhances work quality and reduces setup times by smart task composition or decomposition.
+- Control relocation: Moves checks and reconciliation to the customer side to simplify business operations.
+- Order-based work: Speeds up order processing by eliminating batch-processing and periodic activities.
+- Split Responsibilities and Numerical Involvement: Simplifies coordination and minimizes conflicts by reducing involved parties.
+- Case Manager: Dedicates one person for each order type focusing on process management.
+- Empower: Accelerates decision-making by granting more authority to workers.
+- Order assignment: Improves service quality by letting workers handle as many steps as possible for an order.
+- Order types: Differentiates tasks based on order type to potentially establish new processes.
+- Contact reduction: Enhances efficiency by limiting the number of contacts.
+- Triage: Aligns tasks with resource capabilities and order requirements.
+- Workload Management: Optimizes productivity and avoids burnout by effective task distribution.
+- Process Standardization: Ensures operational efficiency and consistency through standardized processes.
+- Cross-functional Collaboration: Promotes teamwork across different departments towards a shared goal.
+[End]

@@ -11,7 +11,9 @@ PM Assistant is structured based on the repository: https://github.com/JushBJJ/M
 ---
 ## Commands
 ### 1. Generate solution for a case
-**/solve [Case]**: Offers solutions for a specific case.
+**/solve [Case]** 
+
+Offers solutions for a specific case.
 
 You can also use /sol
 
@@ -23,12 +25,14 @@ In the loan application process, after the client submits their loan application
 
 ---
 ### 2. Use Heuristics to solve a case
-**/heuristic [List of Heuristics]**: Utilizes lesser-used GPT heuristics to generate solutions from alternate viewpoints.
+**/heuristic [List of Heuristics]**
+
+Utilizes lesser-used GPT heuristics to generate solutions from alternate viewpoints.
 
 You can also use /heu
 
-Example:
-https://raw.githubusercontent.com/boiltaimn/pma_data/main/test_txt.txt
+Example and set of heuristics:
+https://raw.githubusercontent.com/boiltaimn/pm_assist/main/heuristics/heuristics_short2
 
 ---
 ### 3. Implements the selected solution, identified by its number.
@@ -38,7 +42,7 @@ You can also use /imp
 
 Example:
 ```bash
-/implement 2
+/implement 2  # implement the second solution
 ```
 
 ---
@@ -49,18 +53,20 @@ You can also use /pre
 
 Example:
 ```bash
-/predict # Predict the outcome of the current solution
+/predict  # Predict the outcome of the current solution
 ```
 ```bash
-/predict 2 # Predict the solution with number 2
+/predict 2  # Predict the solution with number 2
 ```
 ```bash
-/predict Process Standardization # Predict the result of "Process Standardization"
+/predict Process Standardization  # Predict the result of "Process Standardization"
 ```
 
 ---
 ### 5. Generate some questions
-**/suggestion**: Invites GPT to suggest questions based on the current conversation.
+**/suggestion**
+
+Invite AI to suggest questions based on the current conversation.
 
 You can also use /sug
 
@@ -71,7 +77,9 @@ Example:
 
 ---
 ### 6. Ask a question
-**/question [...]**: Presents a question. Questions can also be asked without using the command, but it's recommended to use the command as GPT might occasionally lose its personality without it.
+**/question [...]**
+
+Presents a question. Questions can also be asked without using the command, but it's recommended to use the command as GPT might occasionally lose its personality without it.
 
 You can also use /que
 
@@ -82,7 +90,9 @@ Example:
 
 ---
 ### 7. Manage context 
-**/goto <number i>**: Each round of conversation gets assigned a number. Using this command, you can return to a specific conversation and continue from there. This command enables GPT to forget the conversation that happened after the i-th conversation.
+**/goto <number i>**
+
+Each round of conversation gets assigned a number. Using this command, you can return to a specific conversation and continue from there. This command enables GPT to forget the conversation that happened after the i-th conversation.
 
 Example: # Go to the third conversation and implement the first solution
 ```bash
@@ -92,7 +102,9 @@ Example: # Go to the third conversation and implement the first solution
 
 ---
 ### 8.Edit configurations
-**/config <configuration>**: Used to set configurations.
+**/config <configuration>**
+
+Used to set configurations.
 
 Example: 
 ```bash
@@ -100,7 +112,9 @@ Example:
 ```
 ---
 ### 9. Change language
-**/language**: Used to switch languages.
+**/language**
+
+Used to switch languages.
 
 Tip: PM Assistant performs best when using English.
 
