@@ -5,7 +5,8 @@ PM Assistant is structured based on the repository: https://github.com/JushBJJ/M
 
 1. Click [this link](https://chat.openai.com/share/fdad9e87-c9e8-4c73-b041-8a93fea19754) (**MUST HAVE CHATGPT PLUS**)(Deutsch Version click [hier](https://chat.openai.com/share/21e60491-cadf-444a-b08a-bf185fcda90d))
 2. Press the "Continue this conversation" button
-3. Use /solve [A Case] to start analysing!
+3. Use /solve [A Case] to start analysing.
+4. Not have chatGPT-Plus? Never mind, click [here](https://github.com/boiltaimn/pm_assist/blob/main/prompt_set.md) to run PM assistant without it. 
 
 ## Here is a [Detailed Example](https://chat.openai.com/share/795252a5-1228-4f7e-9786-07956f40a27f) of how to use PM Assistant in german. Please note that the dialogue starts in the middle of the page.
 
