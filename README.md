@@ -1,5 +1,7 @@
 ---
+
 # User Manual for PM Assistant 1.0
+
 - [Quick Start Guide](#quick-start-guide)
 - [Commands](#commands)
   - [Generate solution for a case](#1-generate-solution-for-a-case)
