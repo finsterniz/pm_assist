@@ -5,11 +5,11 @@
 ---
 ## Table of Contents
 
-1. [Functions](#functions)
-   - [1.1 /solve: Generate solution for a case](#solve-generate-solution-for-a-case)
-   - [1.2 /heuristic: Use Heuristics to solve a case](#heuristic-use-heuristics-to-solve-a-case)
-   - [1.3 /implement: Implements the selected solution, identified by its number](#implement-implements-the-selected-solution-identified-by-its-number)
-   - [1.4 /predict: Predicts the potential outcome of a solution](#predict-predicts-the-potential-outcome-of-a-solution)
+[Functions](#functions)
+   - [/solve: Generate solution for a case](#1-solve-generate-solution-for-a-case)
+   - [/heuristic: Use Heuristics to solve a case](#2-heuristic-use-heuristics-to-solve-a-case)
+   - [/implement: Implements the selected solution, identified by its number](#3-implement-implements-the-selected-solution-identified-by-its-number)
+   - [/predict: Predicts the potential outcome of a solution](#4-predict-predicts-the-potential-outcome-of-a-solution)
 ---
 ## Functions
 ### 1. /solve: Generate solution for a case
