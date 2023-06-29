@@ -8,9 +8,9 @@ PM Assistant is structured based on the repository: https://github.com/JushBJJ/M
 3. Configure your preferences
 4. Start analysing
 
-## Commands
 ---
-###Solve a case
+## Commands
+### 1. Generate solution for a case
 **/solve [Case]**: Offers solutions for a specific case.
 
 You can also use /sol
@@ -22,16 +22,17 @@ In the loan application process, after the client submits their loan application
 ```
 
 ---
-**/heuristic <List of Heuristics>**: Utilizes lesser-used GPT heuristics to generate solutions from alternate viewpoints.
+### 2. Use Heuristics to solve a case
+**/heuristic [List of Heuristics]**: Utilizes lesser-used GPT heuristics to generate solutions from alternate viewpoints.
 
 You can also use /heu
 
 Example:
 https://raw.githubusercontent.com/boiltaimn/pma_data/main/test_txt.txt
 
-
 ---
-**/implement <number>**: Implements the selected solution, identified by its number.
+### 3. Implements the selected solution, identified by its number.
+**/implement [number]**
 
 You can also use /imp
 
@@ -41,7 +42,8 @@ Example:
 ```
 
 ---
-**/predict <number or solution>**: Predicts the potential outcome of a solution.
+### 4. Predicts the potential outcome of a solution
+**/predict [number or solution]**
 
 You can also use /pre
 
@@ -57,6 +59,7 @@ Example:
 ```
 
 ---
+### 5. Generate some questions
 **/suggestion**: Invites GPT to suggest questions based on the current conversation.
 
 You can also use /sug
@@ -67,7 +70,8 @@ Example:
 ```
 
 ---
-**/question <question>**: Presents a question. Questions can also be asked without using the command, but it's recommended to use the command as GPT might occasionally lose its personality without it.
+### 6. Ask a question
+**/question [...]**: Presents a question. Questions can also be asked without using the command, but it's recommended to use the command as GPT might occasionally lose its personality without it.
 
 You can also use /que
 
@@ -77,6 +81,7 @@ Example:
 ```
 
 ---
+### 7. Manage context 
 **/goto <number i>**: Each round of conversation gets assigned a number. Using this command, you can return to a specific conversation and continue from there. This command enables GPT to forget the conversation that happened after the i-th conversation.
 
 Example: # Go to the third conversation and implement the first solution
@@ -86,13 +91,15 @@ Example: # Go to the third conversation and implement the first solution
 ```
 
 ---
+### 8.Edit configurations
 **/config <configuration>**: Used to set configurations.
 
 Example: 
 ```bash
 /config Tone Style = Humorous
 ```
-
+---
+### 9. Change language
 **/language**: Used to switch languages.
 
 Tip: PM Assistant performs best when using English.

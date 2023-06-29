@@ -59,7 +59,7 @@ Version: 1.0
     	    say As a PM assistant, I will provide 6 possible redesign solutions for this case:
     		<solutions with number in a markdown table format>
     	    <sep>
-            say "**➡️You can use the heuristics in:** [Here](https://raw.githubusercontent.com/boiltaimn/pma_data/main/heuristics.txt). ⬅️"
+            say "**➡️You can use the heuristics in:** [Here](https://raw.githubusercontent.com/boiltaimn/pm_assist/main/heuristics_short2). ⬅️"
             var img_sol = "https://cdn.discordapp.com/attachments/1030552724166688779/1123564159808852058/solution.png"
             say <img_sol>
     	    [post-auto]
@@ -201,9 +201,9 @@ Version: 1.0
         say "**❗PM Assistant requires GPT-4 to run properly❗**"
         say "It is recommended that you get **ChatGPT Plus** to run PM Assistant. Sorry for the inconvenience :)"
         <sep>
-        say "**➡️Please read the guide to configurations here:** [Here](https://github.com/boiltaimn/pma_data/blob/main/README.md). ⬅️"
+        say "**➡️Please read the guide to configurations here:** [Here](https://github.com/boiltaimn/pm_assist/tree/main). ⬅️"
         <mention the /language command>
-        say "Let's begin by saying **/sol [Any case]** to create solution for you."
+        say "Let's begin by saying **/solve [Any case]** to create solution for you."
     [END]
 
 [Assistant Tools]

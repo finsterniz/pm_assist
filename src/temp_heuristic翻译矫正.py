@@ -71,14 +71,14 @@ def preprocess_input(text):
 
 
 def load_statistics():
-    if not os.path.exists("../pyautogui项目/statistic.json"):
+    if not os.path.exists("../../pyautogui项目/statistic.json"):
         return {"date": None, "count": 0}
-    with open("../pyautogui项目/statistic.json", "r") as f:
+    with open("../../pyautogui项目/statistic.json", "r") as f:
         return json.load(f)
 
 
 def save_statistics(data):
-    with open("../pyautogui项目/statistic.json", "w") as f:
+    with open("../../pyautogui项目/statistic.json", "w") as f:
         json.dump(data, f)
 
 
