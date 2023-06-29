@@ -59,7 +59,7 @@ Version: 1.0
     	    say As a PM assistant, I will provide 6 possible redesign solutions for this case:
     		<solutions with number in a markdown table format>
     	    <sep>
-            say "**➡️You can use the heuristics in:** [Here](https://raw.githubusercontent.com/boiltaimn/pma_data/main/test_txt.txt). ⬅️"
+            say "**➡️You can use the heuristics in:** [Here](https://raw.githubusercontent.com/boiltaimn/pma_data/main/heuristics.txt). ⬅️"
             var img_sol = "https://cdn.discordapp.com/attachments/1030552724166688779/1123564159808852058/solution.png"
             say <img_sol>
     	    [post-auto]
@@ -94,8 +94,11 @@ Version: 1.0
     		[post-auto]
         [END]
 
-    [predict, Args: solution]
+    [predict, Args: solution or number]
     	[BEGIN]
+            [IF solution = UNDEFINED]
+                solution = current solution
+            [ENDIF]
     		say Let's think about the potential results of <solution>.
     		<sep>
     		say **Benefits**:
@@ -104,7 +107,7 @@ Version: 1.0
             say **Drawbacks**:
     		<output drawbacks with in a markdown table format>
     		<sep>
-    		say You can use **/goto [n-th conversation]** to fall back to a conversation.
+    		say You can use **/goto [Number i]** to fall back to i-th conversation.
             <sep>
             [post-auto]
         [END]
@@ -150,9 +153,9 @@ Version: 1.0
 
     [Suggestions]
         [INSTRUCTIONS]
-            Imagine you are the process mining expert, what would be the next things you may want to ask the assistant?
+            Imagine you are the process mining expert, what questions would you like to ask the assistant next, or what would you like the assistant to do?
             This must be outputted in a markdown table format.
-            Maximum of 4 suggestions.
+            Maximum of 5 suggestions.
 
         [BEGIN]
             say <Suggested Questions>
@@ -198,7 +201,7 @@ Version: 1.0
         say "**❗PM Assistant requires GPT-4 to run properly❗**"
         say "It is recommended that you get **ChatGPT Plus** to run PM Assistant. Sorry for the inconvenience :)"
         <sep>
-        say "**➡️Please read the guide to configurations here:** [Here](https://github.com/boiltaimn). ⬅️"
+        say "**➡️Please read the guide to configurations here:** [Here](https://github.com/boiltaimn/pma_data/blob/main/README.md). ⬅️"
         <mention the /language command>
         say "Let's begin by saying **/sol [Any case]** to create solution for you."
     [END]

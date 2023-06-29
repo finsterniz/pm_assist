@@ -46,5 +46,26 @@ https://chat.openai.com/share/b25222e9-cdca-4721-ac04-394a6dc02e79
 3.9 原型的初稿效果
 https://chat.openai.com/share/96cbe4c4-4b77-4ae7-9d9b-540a799a0461
 
+3.10 例子
+https://chat.openai.com/share/47eb0032-8f0b-40a0-a484-5dcd81089f0d
+https://chat.openai.com/share/47eb0032-8f0b-40a0-a484-5dcd81089f0d
 
+3.11 ##正确添加了user manual后
+https://chat.openai.com/share/f8c4370d-4066-4593-bf7c-4cb9be2935bd
 
+https://chat.openai.com/share/76f03aad-d9d2-45a5-88d7-3387366572f6
+
+3.13 简体中文
+https://chat.openai.com/share/787cfeb3-3738-4f62-8f30-f1650dc3eeb4
+3.13.1 中文聪明一点的例子
+https://chat.openai.com/share/e6650352-8427-4304-a1c4-d1d4b7eb5bdc
+
+## 成功德语
+https://chat.openai.com/share/76f03aad-d9d2-45a5-88d7-3387366572f6
+德语例子
+https://chat.openai.com/share/76f03aad-d9d2-45a5-88d7-3387366572f6
+
+3.12 德语， 但是效果一般
+https://chat.openai.com/share/6e081adf-7234-4f43-80e7-c028a75f52c4
+
+3.14 修改了suggestion后
