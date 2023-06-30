@@ -53,7 +53,8 @@ Utilizes lesser-used GPT heuristics to generate solutions from alternate viewpoi
 You can also use /heu
 
 Example and set of heuristics:
-https://raw.githubusercontent.com/boiltaimn/pm_assist/main/heuristics/heuristics_short2
+
+https://raw.githubusercontent.com/boiltaimn/pm_assist/main/heuristics.txt
 
 ---
 ### 3. Implements the selected solution, identified by its number.
