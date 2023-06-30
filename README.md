@@ -28,9 +28,10 @@ PM Assistant is structured based on this [repository](https://github.com/JushBJJ
 1. Click [this link](https://chat.openai.com/share/fdad9e87-c9e8-4c73-b041-8a93fea19754) (**MUST HAVE CHATGPT PLUS**)(Deutsch Version click [hier](https://chat.openai.com/share/21e60491-cadf-444a-b08a-bf185fcda90d))
 2. Press the "Continue this conversation" button
 3. Use /solve [A Case] to start analysing.
-4. Not have chatGPT-Plus? Never mind, click [here](https://github.com/boiltaimn/pm_assist/blob/main/prompt_set.md) to run PM assistant without it. 
 
-## Here is a [detailed example](https://chat.openai.com/share/072ca5b0-f18d-4583-ad40-8b4eb164fcdb) of how to use PM Assistant（[Deutsch Beispiel hier](https://chat.openai.com/share/795252a5-1228-4f7e-9786-07956f40a27f)）. Please note that the dialogue starts in the middle of the page.
+### Not have chatGPT-Plus? Never mind, click [HERE](https://github.com/boiltaimn/pm_assist/blob/main/prompt_set.md) to run PM assistant without it. 
+
+### Click [HERE](https://chat.openai.com/share/072ca5b0-f18d-4583-ad40-8b4eb164fcdb) to see  a detailed example of how to use PM Assistant ([Deutsch Beispiel hier](https://chat.openai.com/share/795252a5-1228-4f7e-9786-07956f40a27f)). Please note that the dialogue starts in the middle of the page.
 
 ---
 ## Commands
@@ -157,10 +158,10 @@ https://forms.gle/dTEFhRCafksPkTo19
 ---
 ## Function Display
 ### /solve Function
-![我的图片](data/solve1.png)
+![solve](data/solve1.png)
 ### /implement Function
-![我的图片](data/implement.png)
+![implement](data/implement.png)
 ### /Guide map Function
-![我的图片](data/map.png)
+![map](data/map.png)
 ### /predict Function
-![我的图片](data/predict.png)
+![predict](data/predict.png)
