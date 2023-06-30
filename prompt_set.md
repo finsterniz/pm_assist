@@ -6,10 +6,13 @@
 ## Table of Contents
 
 [Functions](#functions)
-   - [/solve: Generate solution for a case](#1-solve-generate-solution-for-a-case)
-   - [/heuristic: Use Heuristics to solve a case](#2-heuristic-use-heuristics-to-solve-a-case)
-   - [/implement: Implements the selected solution, identified by its number](#3-implement-implements-the-selected-solution-identified-by-its-number)
-   - [/predict: Predicts the potential outcome of a solution](#4-predict-predicts-the-potential-outcome-of-a-solution)
+   - [1. /solve: Generate solution for a case](#1-solve-generate-solution-for-a-case)
+   - [2. /heuristic: Use Heuristics to solve a case](#2-heuristic-use-heuristics-to-solve-a-case)
+   - [3. /implement: Implements the selected solution, identified by its number](#3-implement-implements-the-selected-solution-identified-by-its-number)
+   - [4. /predict: Predicts the potential outcome of a solution](#4-predict-predicts-the-potential-outcome-of-a-solution)
+
+[Questionnaire](#2-questionnaire)
+
 ---
 ## Functions
 ### 1. /solve: Generate solution for a case
@@ -101,3 +104,8 @@ TASK
 1. output benefits with in a markdown table format.
 2. output drawbacks with in a markdown table format.
 ```
+
+## 2. Questionnaire
+Your feedback, especially any suggestions for improvement, would be invaluable to my project. 
+
+You can Click [here](https://forms.gle/dTEFhRCafksPkTo19) to provide your precious feedback.
