@@ -14,6 +14,10 @@
 [Questionnaire](#2-questionnaire)
 
 ---
+## Guide map
+![Guide Map](data/guide_map.png)
+
+---
 ## Functions
 ### 1. /solve: Generate solution for a case
 
