@@ -17,9 +17,12 @@ PM Assistant is structured based on this [repository](https://github.com/JushBJJ
   - [Edit configurations](#8edit-configurations)
   - [Change language](#9-change-language)
 - [Feedback](#feedback)
+- [Function Display](#function-display)
 
 ---
+![begin](data/begin1.png)
 
+---
 ## Quick Start Guide
 
 1. Click [this link](https://chat.openai.com/share/fdad9e87-c9e8-4c73-b041-8a93fea19754) (**MUST HAVE CHATGPT PLUS**)(Deutsch Version click [hier](https://chat.openai.com/share/21e60491-cadf-444a-b08a-bf185fcda90d))
@@ -150,3 +153,14 @@ Example:
 I would be very grateful if you could help me fill out the survey:
 
 https://forms.gle/dTEFhRCafksPkTo19
+
+---
+## Function Display
+### /solve Function
+![我的图片](data/solve1.png)
+### /implement Function
+![我的图片](data/implement.png)
+### /Guide map Function
+![我的图片](data/map.png)
+### /predict Function
+![我的图片](data/predict.png)
