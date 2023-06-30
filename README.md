@@ -9,7 +9,7 @@ PM Assistant is structured based on this [repository](https://github.com/JushBJJ
 - [Commands](#commands)
   - [Generate solution for a case](#1-generate-solution-for-a-case)
   - [Use Heuristics to solve a case](#2-use-heuristics-to-solve-a-case)
-  - [Implements the selected solution, identified by its number](#3-implements-the-selected-solution-identified-by-its-number)
+  - [Implements the selected solution](#3-implements-the-selected-solution-identified-by-its-number)
   - [Predicts the potential outcome of a solution](#4-predicts-the-potential-outcome-of-a-solution)
   - [Generate some questions](#5-generate-some-questions)
   - [Ask a question](#6-ask-a-question)
