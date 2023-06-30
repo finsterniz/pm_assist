@@ -80,15 +80,21 @@ https://chat.openai.com/share/955d9c5b-9128-430b-89da-49a4ad4c968c
 德语
 https://chat.openai.com/share/4b131333-e0c1-4b83-8162-df4779725c6c
 
-https://chat.openai.com/share/4b131333-e0c1-4b83-8162-df4779725c6c
 3.16.1 德语例子
 https://chat.openai.com/share/29a8eeb4-6172-4daa-8034-8f1ae51e58c9
 
 3.17 纠正一些小bug，英文
 https://chat.openai.com/share/fdad9e87-c9e8-4c73-b041-8a93fea19754
+3.17 英文例子
+https://chat.openai.com/share/072ca5b0-f18d-4583-ad40-8b4eb164fcdb
 3.17.1 德语
 https://chat.openai.com/share/21e60491-cadf-444a-b08a-bf185fcda90d
-3.17.2 德语的9个对话的例子
+3.17.1.1 德语的9个对话的例子
 https://chat.openai.com/share/795252a5-1228-4f7e-9786-07956f40a27f
+3.17.2 中文
+https://chat.openai.com/share/aec49610-92f4-44f8-be7f-df79c3a4cd41
+3.17.2.1 中文例子
+https://chat.openai.com/share/cb65db19-e663-4271-9d93-d76b918bca93
 
-
+3.18 没有用到PM Assistant的对话例子
+https://chat.openai.com/share/1615a842-35f0-4cf5-b72a-d9312bc7499e
