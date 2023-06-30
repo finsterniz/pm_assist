@@ -19,6 +19,8 @@
 
 ---
 ## Functions
+### A concrete example of all functions please click [here](https://chat.openai.com/share/1615a842-35f0-4cf5-b72a-d9312bc7499e).
+
 ### 1. /solve: Generate solution for a case
 
 You need to fill the [case].
