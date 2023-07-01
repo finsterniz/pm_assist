@@ -112,6 +112,6 @@ TASK
 ```
 
 ## 2. Questionnaire
-Your feedback, especially any suggestions for improvement, would be invaluable to my project. 
+Your feedback, especially any suggestions for improvement, would be invaluable to my project: 
 
-You can Click **[HERE](https://forms.gle/F44wsE96DiEde5HG9)** to provide your precious feedback.
+**[Questionnaire for LinkedIn](https://forms.gle/77ofjUw7F117eyYDA)**
