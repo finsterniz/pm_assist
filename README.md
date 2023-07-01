@@ -156,12 +156,14 @@ I would be very grateful if you could help me fill out the survey:
 **[Questionnaire for LinkedIn](https://forms.gle/77ofjUw7F117eyYDA)**
 
 ---
-## Function Display
+## Functions Display
 ### /solve Function
 ![solve](data/solve1.png)
+### /heuristic Function
+![solve](data/heuristic.png)
 ### /implement Function
 ![implement](data/implement.png)
-### /Guide map Function
+### Guide map Function
 ![map](data/map.png)
 ### /predict Function
 ![predict](data/predict.png)
