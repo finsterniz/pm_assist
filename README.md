@@ -31,7 +31,7 @@ PM Assistant is structured based on this [repository](https://github.com/JushBJJ
 
 ### Not have chatGPT-Plus? Never mind, click [HERE](https://github.com/boiltaimn/pm_assist/blob/main/prompt_set.md) to run PM assistant without it. 
 
-### Click [HERE](https://chat.openai.com/share/072ca5b0-f18d-4583-ad40-8b4eb164fcdb) to see  a detailed example of how to use PM Assistant ([Deutsch Beispiel hier](https://chat.openai.com/share/795252a5-1228-4f7e-9786-07956f40a27f)). Please note that the dialogue starts in the middle of the page.
+### Click [HERE](https://chat.openai.com/share/446cd642-11dc-4828-90b9-4695a382121b) to see  a detailed example of how to use PM Assistant ([Deutsch Beispiel hier](https://chat.openai.com/share/795252a5-1228-4f7e-9786-07956f40a27f)). Please note that the dialogue starts in the middle of the page.
 
 ---
 ## Commands

@@ -87,6 +87,8 @@ https://chat.openai.com/share/29a8eeb4-6172-4daa-8034-8f1ae51e58c9
 https://chat.openai.com/share/fdad9e87-c9e8-4c73-b041-8a93fea19754
 3.17 英文例子
 https://chat.openai.com/share/072ca5b0-f18d-4583-ad40-8b4eb164fcdb
+3.17.1 新的英语例子
+https://chat.openai.com/share/446cd642-11dc-4828-90b9-4695a382121b
 3.17.1 德语
 https://chat.openai.com/share/21e60491-cadf-444a-b08a-bf185fcda90d
 3.17.1.1 德语的9个对话的例子
