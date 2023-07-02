@@ -29,9 +29,11 @@ PM Assistant is structured based on this [repository](https://github.com/JushBJJ
 2. Press the "Continue this conversation" button
 3. Use /solve [A Case] to start analysing.
 
-### Not have chatGPT-Plus? Never mind, click [HERE](https://github.com/boiltaimn/pm_assist/blob/main/prompt_set.md) to run PM assistant without it. 
+## 5-minute Video-Tutorial in Youtube: https://youtu.be/4IoIFEKXiGs 
 
-### Click [HERE](https://chat.openai.com/share/446cd642-11dc-4828-90b9-4695a382121b) to see  a detailed example of how to use PM Assistant ([Deutsch Beispiel hier](https://chat.openai.com/share/795252a5-1228-4f7e-9786-07956f40a27f)). Please note that the dialogue starts in the middle of the page.
+Click [here](https://chat.openai.com/share/446cd642-11dc-4828-90b9-4695a382121b) to see  a detailed example of how to use PM Assistant ([Deutsch Beispiel hier](https://chat.openai.com/share/795252a5-1228-4f7e-9786-07956f40a27f)). Please note that the dialogue starts in the middle of the page.
+
+Not have chatGPT-Plus? Never mind, click [here](https://github.com/boiltaimn/pm_assist/blob/main/prompt_set.md) to run PM assistant without it. 
 
 ---
 ## Commands
