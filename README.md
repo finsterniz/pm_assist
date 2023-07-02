@@ -23,6 +23,20 @@ PM Assistant is structured based on this [repository](https://github.com/JushBJJ
 ![begin](data/begin1.png)
 
 ---
+## Why PM Assistant
+
+PM Assistant is designed to empower you in several ways:
+
+1. **Solution Generation:** For improvement opportunities identified in process mining, PM Assistant allows you to rapidly generate multiple solutions.
+
+2. **Actionable Steps:** Based on these solutions, the tool is capable of generating concrete implementation steps.
+
+3. **Insightful Trade-offs:** PM Assistant can also provide balanced perspectives on the benefits and drawbacks of each solution, enabling you to foresee the potential outcomes.
+
+An exciting discovery we've made is that PM Assistant is not only capable of supporting the redesigning needs in process mining but it can also provide practical solutions, implementation steps, and thoughtful trade-offs for everyday problems you might encounter in life. PM Assistant - a tool designed for process mining, but its utility extends well beyond!
+
+---
+
 ## Quick Start Guide
 
 1. Click **[this link](https://chat.openai.com/share/fdad9e87-c9e8-4c73-b041-8a93fea19754)** (**MUST HAVE CHATGPT PLUS**)(Deutsch Version click **[hier](https://chat.openai.com/share/21e60491-cadf-444a-b08a-bf185fcda90d)**)
