@@ -6,11 +6,12 @@ PM Assistant is structured based on this [repository](https://github.com/JushBJJ
 ## Table of content
 - [Why PM Assistant](#why-pm-assistant)
 - [Quick Start Guide](#quick-start-guide)
-- [Commands](#commands)
+- [Core Commands](#core-commands)
   - [Generate solution for a case](#1-generate-solution-for-a-case)
   - [Use Heuristics to solve a case](#2-use-heuristics-to-solve-a-case)
   - [Implements the selected solution](#3-implements-the-selected-solution-identified-by-its-number)
   - [Predicts the potential outcome of a solution](#4-predicts-the-potential-outcome-of-a-solution)
+- [Other Commands](#other-commands)
   - [Generate some questions](#5-generate-some-questions)
   - [Ask a question](#6-ask-a-question)
   - [Manage context](#7-manage-context)
@@ -35,6 +36,9 @@ PM Assistant is designed to empower you in several ways:
 
 An exciting discovery we've made is that PM Assistant is not only capable of supporting the redesigning needs in process mining but it can also provide practical solutions, implementation steps, and thoughtful trade-offs for everyday problems you might encounter in life. PM Assistant - a tool designed for process mining, but its utility extends well beyond!
 
+### daily_example:
+
+![daily_example](data/daily_example.png)
 ---
 
 ## Quick Start Guide
@@ -50,7 +54,7 @@ Click [here](https://chat.openai.com/share/446cd642-11dc-4828-90b9-4695a382121b)
 Not have chatGPT-Plus? Never mind, click [here](https://github.com/boiltaimn/pm_assist/blob/main/prompt_set.md) to run PM assistant without it. 
 
 ---
-## Commands
+## Core-Commands
 ### 1. Generate solution for a case
 **/solve [Case]** 
 
@@ -103,8 +107,9 @@ Example:
 ```bash
 /predict Process Standardization  # Predict the result of "Process Standardization"
 ```
-
 ---
+## Other commands
+
 ### 5. Generate some questions
 **/suggestion**
 
