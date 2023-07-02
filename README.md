@@ -4,7 +4,7 @@ PM Assistant is structured based on this [repository](https://github.com/JushBJJ
 ---
 
 ## Table of content
-
+- [Why PM Assistant](#why-pm-assistant)
 - [Quick Start Guide](#quick-start-guide)
 - [Commands](#commands)
   - [Generate solution for a case](#1-generate-solution-for-a-case)
