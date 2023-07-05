@@ -26,7 +26,9 @@ PM Assistant is structured based on this [repository](https://github.com/JushBJJ
 ---
 ## Why PM Assistant
 
-PM Assistant is designed to empower you in several ways:
+PM Assistant is designed to assist the redesign part of process mining.
+
+It could empower you in several ways:
 
 1. **Solution Generation:** For improvement opportunities identified in process mining, PM Assistant allows you to rapidly generate multiple solutions.
 
@@ -36,7 +38,7 @@ PM Assistant is designed to empower you in several ways:
 
 An exciting discovery we've made is that PM Assistant is not only capable of supporting the redesigning needs in process mining but it can also provide practical solutions, implementation steps, and thoughtful trade-offs for everyday problems you might encounter in life. PM Assistant - a tool designed for process mining, but its utility extends well beyond!
 
-### daily_example:
+### Example from life:
 
 ![daily_example](data/daily_example.png)
 ---

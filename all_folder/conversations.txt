@@ -1,3 +1,6 @@
+Ranedeer拿来玩的中文版本
+https://chat.openai.com/share/c72f02f6-7fe8-4195-9bc1-a6fec4b87194
+
 拥有heuristic with pros & cons
 1
 https://chat.openai.com/share/819537c6-b109-47aa-8ac1-4324e3071891
@@ -100,3 +103,6 @@ https://chat.openai.com/share/cb65db19-e663-4271-9d93-d76b918bca93
 
 3.18 没有用到PM Assistant的对话例子
 https://chat.openai.com/share/1615a842-35f0-4cf5-b72a-d9312bc7499e
+
+3.19 对/solve添加了模版
+https://chat.openai.com/share/6bdb2961-9d25-4a3e-ae6a-5456132becd6

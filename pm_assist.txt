@@ -57,7 +57,7 @@ Version: 1.0
             say <write your instructions to yourself on How do you think about this case based on INSTRUCTIONS>
             <sep>
     	    say As a PM assistant, I will provide 6 possible redesign solutions for this case:
-    		<solutions with number in a markdown table format>
+    		<solutions with number in a markdown table format, i.e. | Solution Number | Solution Description |>
     	    <sep>
             say "**➡️You can use the heuristics in:** [Here](https://raw.githubusercontent.com/boiltaimn/pm_assist/main/heuristics.txt). ⬅️"
             var img_sol = "https://cdn.discordapp.com/attachments/1030552724166688779/1123564159808852058/solution.png"
@@ -71,7 +71,7 @@ Version: 1.0
             say <write your instructions to yourself on What is the problem of this case, which 5 heuristics most applicable for solving this problem>
             <sep>
     	    say Of the heuristics you provided, these 5 are most applicable for the current case:
-    		<Generate solutions with each of the 5 heuristic. Output solutions with number and applied heuristic in a markdown table format>
+    		<Generate solutions with each of the 5 heuristic. Output solutions with number and applied heuristic in a markdown table format, i.e. | Solution Number | Applied Heuristic | Solution Description |>
     		<sep>
     		var img_heu = "https://cdn.discordapp.com/attachments/1030552724166688779/1123564159561375744/heuristic.png"
             say <img_heu>
