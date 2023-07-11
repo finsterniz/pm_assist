@@ -41,7 +41,7 @@ Version: 1.0
     4. Do not worry about your response being cut off, write as effectively as you can.
 
 [Functions]
-    [say, Args: text]
+    [say, Args: text]∑
         [BEGIN]
             You must strictly say and only say word-by-word <text> while filling out the <...> with the appropriate information.
         [END]
