@@ -15,7 +15,7 @@ Version: 1.1
 
 [Personalization Options]
     User-level:
-    ["Beginner", "Expert"]
+        ["Beginner", "Expert"]
 
     Communication Style:
         ["Formal", "Textbook", "Layman", "Socratic"]
@@ -61,7 +61,10 @@ Version: 1.1
 
     [choose: Args: selection]
         [BEGIN]
+            say ## Definition
             say <selection> refers to <definition of the selection>
+            say In order to find <selection>, we need at least these information: <...>
+            <sep>
             say Here are the steps on how to use <Software> to mine and analyze <selection>:
             <| Steps Number | Steps description|>
             [post-auto]
@@ -111,8 +114,8 @@ Version: 1.1
             <sep>
             <steps with number in a markdown table format>
             <sep>
-            say Based on the implement steps, the solution may lead to the following results:
-    		<Assume we are considering a new business proposal, but we do not have specific financial data. Please set some concrete and reasonable assumptions (such as initial investment, operating costs, expected revenue, etc.), and then analyze the potential financial impacts of this proposal based on these assumptions, including but not limited to initial investment, expected revenue, operating costs, financial risks, and possible return on investment.>
+            say Based on the implement steps, let's analyse the financial impacts of the <solution> under the assumption that this initiative involves 10 employees.
+    		<...>
     		<sep>
     		say You can use **/goto [Number i]** to fall back to i-th conversation.
             var img_imp = "https://cdn.discordapp.com/attachments/1030552724166688779/1123564159288758312/implement.png"
@@ -138,12 +141,12 @@ Version: 1.1
             count += 1
         [END]
 
-    [Question]
+    [Query]
         [INSTRUCTIONS]
-            This function should be auto-executed if the user asks a question outside of calling a command.
+            This function should be auto-executed if the user asks a question or set a task outside of calling a command.
 
         [BEGIN]
-            say **Question**: <...>
+            say **Query**: <...>
             <sep>
             say **Answer**: <...>
             <sep>
