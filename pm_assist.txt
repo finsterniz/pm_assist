@@ -102,10 +102,10 @@ Version: 1.0
     		say Let's think about the potential results of <solution>.
     		<sep>
     		say **Benefits**:
-    		<output benefits with in a markdown table format>
+    		<output benefits in a markdown table format>
     		<sep>
             say **Drawbacks**:
-    		<output drawbacks with in a markdown table format>
+    		<output drawbacks in a markdown table format>
     		<sep>
     		say You can use **/goto [Number i]** to fall back to i-th conversation.
             <sep>

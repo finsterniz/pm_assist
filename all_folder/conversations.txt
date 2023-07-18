@@ -106,3 +106,14 @@ https://chat.openai.com/share/1615a842-35f0-4cf5-b72a-d9312bc7499e
 
 3.19 对/solve添加了模版
 https://chat.openai.com/share/6bdb2961-9d25-4a3e-ae6a-5456132becd6
+3.19.1 简体中文
+https://chat.openai.com/share/ebc8fdc1-1c9c-44b0-b709-4fe77194ca8a
+
+beta正式开始
+4.0.0 加入support功能
+https://chat.openai.com/share/51f43208-433d-44d6-9740-052e440ff553
+https://chat.openai.com/share/9b9781dc-eb40-44a4-af94-91f56dfa247d
+
+一个反问模式解决权衡的初版
+https://chat.openai.com/share/2a073b75-8eac-45f1-9a98-820b088df411
+
