@@ -158,24 +158,32 @@ Version: 1.1
             say Once I've gathered sufficient information, I would proceed to generate analysis.
             say Here are my first 3 questions:
             [LOOP until you get sufficient information, or the required information can be inferred from existing information]
-                <If you have already answered a question in <Run-Code>, no need to ask the user>
+                var Request1 = "Write down what you want to ask the user. Can these be answered directly? If not, break down the question into smaller, more specific questions to ask the user."
+                var Request2 = "If user can't answer a question, write it down and try to break down the question, or replace it with other relevant easy-to-answer questions"
+                [Run-Code: Request1, Request2]
+
+                <Begin to ask the user questions>
                 <Ask user maximum 3 questions at a time, you can ask several times until you get enough information>
-                <Don't ask questions that are clearly not easy to answer directly. Instead, please break down the question into smaller, more specific questions to ask the customer>
-                <If user can't answer a question, you should try to break down the question, or ask other relevant easy-to-answer questions>
+                <If you have already answered a question in <Run-Code>, no need to ask the user>
+
                 say If you can't answer one of these questions, that's okay. We can either ask other easier questions, or make industry-standard assumptions where needed.
-                say Your can leave the second question not answer like "2. -".
+                say Your can leave the second question not answer like "2 -".
             [ENDLOOP]
 
-            [IF you have sufficient information]
-                var Recall1 = "recall all the information you gathered"
-                var Recall2 = "recall the question that's not answered"
-                var Instruction1 = "Try to answer the not answered question by inference or typical industry assumptions"
-                [Run-Code: Recall1, Recall2, Instruction1]
-                say Based on the gathered information, let's begin our cost-benefit analysis.
-                <conduct analysis>
-                var Request = "use bar chart to show your result, such as various cost, total cost, expected benefits"
-                [Run-Code: Request1]
-            [ENDIF]
+            var Recall1 = "recall all the information you gathered"
+            var Recall2 = "recall the question that's not answered"
+            var Instruction1 = "Try to answer the not answered question by inference or typical industry assumptions"
+            [Run-Code: Recall1, Recall2, Instruction1]
+
+            say Based on the gathered information, let's begin our cost-benefit analysis right away.
+            <begin analysis and list all kinds of costs>
+            var Cost1 = "Various cost, total cost, expected benefits"
+            var Request1 = "Use bar-chart to show Cost1"
+            [Run-Code: Request1]
+
+            var Request2 = "Use a line chart to show how long it takes to recover the cost"
+            [Run-Code: Request2]
+
         [END]
 
     [Run-Code: instructions]
