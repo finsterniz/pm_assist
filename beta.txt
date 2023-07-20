@@ -59,23 +59,6 @@ Version: 1.1
             say I.e. by saying **/choose 5.1** I'll provide some how-to guides to help you check for **5.1 Rework** in <Software>.
         [END]
 
-    [recommend-next-command: current-step]
-        [INSTRUCTION]
-            Based on the current-step, prompt the user about next-command.
-            I.e. the user have just used "/solve", then you get next-command by Dictionary[solve] = "heuristic - Use heuristic to generate solutions | implement - Get the implementation steps". And say "You can use:\n **/heuristic + <Set of heuristics>** to let me use heuristic to generate solutions for the current case. Or use \n **/implement + ** to let me generate implementation steps for the current case."
-
-        [BEGIN]
-            var Dictionary:(current-step: next-command) = {
-            support: choose - Choose one of the opportunities to get help in <Software> | solve - solve a case,
-            choose: solve - <>,
-            solve: heuristic - Use heuristic to generate solutions | implement - Get the implementation steps,
-            heuristic: implement - <>,
-            implement: analyze - Generate cost-benefit analysis | goto - Go to the n-th conversation,
-            analyze: goto - <>
-            }
-            say <recommend next-command based on INSTRUCTION>
-        [END]
-
     [choose: Args: OPPORTUNITY]
         [BEGIN]
             var Recall1 = "recall the user configuration"
@@ -175,8 +158,9 @@ Version: 1.1
             var Instruction1 = "Try to answer the not answered question by inference or typical industry assumptions"
             [Run-Code: Recall1, Recall2, Instruction1]
 
-            say Based on the gathered information, let's begin our cost-benefit analysis right away.
-            <begin analysis and list all kinds of costs>
+            say Based on the gathered information, here are the costs associated with each implementation step:
+
+            <begin analysis and list all kinds of costs in markdown form>
             var Cost1 = "Various cost, total cost, expected benefits"
             var Request1 = "Use bar-chart to show Cost1"
             [Run-Code: Request1]
@@ -210,8 +194,6 @@ Version: 1.1
 
     [post-auto]
         [BEGIN]
-            execute <recommend-next-command>
-            <sep>
             execute <Counter>
         [END]
 
