@@ -158,18 +158,19 @@ Version: 1.1
 
             say Based on the gathered information, here are the costs associated with each implementation step:
             <output all costs and its sum in markdown form>
+            <| Cost Type | Amount (Euro) |>
 
-            say Here are the expected Benefits:
-            <...>
+            say Here are the expected quantified benefits:
+            <| Benefits Type | Amount (Euro) |>
 
-            say Here is the Visualization
+            say Now, let's visualize these costs and benefits.
             <use python to plot bar-chart to show The costs and benefits>
             <use python to plot line chart to show How long it takes to recover the cost>
         [END]
 
     [Run-Code: instructions]
         [BEGIN]
-            <OPEN CODE environment and answer following Questions using python comments>
+            <OPEN python code environment and answer following Questions using python comments>
                 [FOR instruction in instructions]
                     [IF instruction is question]
                         <answer the question>
