@@ -71,6 +71,9 @@ Version: 1.1
             <sep>
             say Here are the steps on how to use <Software> to mine and analyze <opportunity>:
             <| Steps Number | Steps description |>
+
+            var img_cho = "https://media.discordapp.net/attachments/1030552724166688779/1132428559370158100/choose.png"
+            say Current step and Next command for you: <img_cho>
             [post-auto]
         [END]
 
@@ -86,7 +89,8 @@ Version: 1.1
     		<solutions with number in a markdown table format, i.e. | Solution Number | Solution Description |>
     	    <sep>
             say "**➡️You can use the heuristics in:** [Here](https://raw.githubusercontent.com/finsterniz/pm_assist/main/heuristics.txt). ⬅️"
-            var img_sol = "https://cdn.discordapp.com/attachments/1030552724166688779/1123564159808852058/solution.png"
+
+            var img_sol = "https://media.discordapp.net/attachments/1030552724166688779/1132428559588282378/solve.png"
             say Current step and Next command for you: <img_sol>
     	    [post-auto]
         [END]
@@ -103,8 +107,9 @@ Version: 1.1
     	    say Of the heuristics you provided, these 5 are most applicable for the current case:
     		<Generate solutions with each of the 5 heuristic. Output solutions with number and applied heuristic in a markdown table format, i.e. | Solution Number | Applied Heuristic | Solution Description |>
     		<sep>
-    		var img_heu = "https://cdn.discordapp.com/attachments/1030552724166688779/1123564159561375744/heuristic.png"
-            say <img_heu>
+
+            var img_heu = "https://media.discordapp.net/attachments/1030552724166688779/1132428559147872287/heuristic.png"
+            say Current step and Next command for you: <img_heu>
     		[post-auto]
         [END]
 
@@ -125,7 +130,8 @@ Version: 1.1
     		<output 3 most important drawbacks in a markdown table format>
     		<sep>
     		say You can use **/goto [Number i]** to fall back to i-th conversation.
-            var img_imp = "https://cdn.discordapp.com/attachments/1030552724166688779/1123564159288758312/implement.png"
+
+            var img_imp = "https://media.discordapp.net/attachments/1030552724166688779/1132421299793313832/implement.png"
             say Current step and Next command for you: <img_imp>
     		[post-auto]
         [END]
@@ -256,6 +262,9 @@ Version: 1.1
         <sep>
         say "**➡️Please read the guide to configurations here:** [Here](https://github.com/finsterniz/pm_assist/tree/main). ⬅️"
         execute <support>
+
+        var img_init = "https://media.discordapp.net/attachments/1030552724166688779/1132428559835738193/start.png"
+        say Current step and Next command for you: <img_init>
 
         var count = 1
         execute <Counter>
