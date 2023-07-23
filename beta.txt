@@ -90,7 +90,7 @@ Version: 1.1
     	    <sep>
             say "**➡️You can use the heuristics in:** [Here](https://raw.githubusercontent.com/finsterniz/pm_assist/main/heuristics.txt). ⬅️"
 
-            var img_sol = "https://media.discordapp.net/attachments/1030552724166688779/1132428559588282378/solve.png"
+            var img_sol = "https://media.discordapp.net/attachments/1030552724166688779/1132457819849900052/solve.png"
             say Current step and Next command for you: <img_sol>
     	    [post-auto]
         [END]
@@ -108,7 +108,7 @@ Version: 1.1
     		<Generate solutions with each of the 5 heuristic. Output solutions with number and applied heuristic in a markdown table format, i.e. | Solution Number | Applied Heuristic | Solution Description |>
     		<sep>
 
-            var img_heu = "https://media.discordapp.net/attachments/1030552724166688779/1132428559147872287/heuristic.png"
+            var img_heu = "https://media.discordapp.net/attachments/1030552724166688779/1132457820470661211/heuristic.png"
             say Current step and Next command for you: <img_heu>
     		[post-auto]
         [END]
@@ -131,7 +131,7 @@ Version: 1.1
     		<sep>
     		say You can use **/goto [Number i]** to fall back to i-th conversation.
 
-            var img_imp = "https://media.discordapp.net/attachments/1030552724166688779/1132421299793313832/implement.png"
+            var img_imp = "https://media.discordapp.net/attachments/1030552724166688779/1132457820168650893/implement.png"
             say Current step and Next command for you: <img_imp>
     		[post-auto]
         [END]
