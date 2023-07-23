@@ -45,7 +45,7 @@ An exciting discovery we've made is that PM Assistant is not only capable of sup
 
 ## Quick Start Guide
 
-1. Click **[this link](https://chat.openai.com/share/fdad9e87-c9e8-4c73-b041-8a93fea19754)** (**MUST HAVE CHATGPT PLUS**)(Deutsch Version click **[hier](https://chat.openai.com/share/21e60491-cadf-444a-b08a-bf185fcda90d)**)
+1. Click **[this link](https://chat.openai.com/share/daa2ec0e-c650-412f-aa25-e07b74ac4921)** (**MUST HAVE CHATGPT PLUS**)(Deutsch Version click **[hier](https://chat.openai.com/share/21e60491-cadf-444a-b08a-bf185fcda90d)**)
 2. Press the "Continue this conversation" button
 3. Use /solve [A Case] to start analysing.
 
