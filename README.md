@@ -49,13 +49,13 @@ An exciting discovery we've made is that PM Assistant is not only capable of sup
 
 1. Click **[this link](https://chat.openai.com/share/daa2ec0e-c650-412f-aa25-e07b74ac4921)** (**MUST HAVE CHATGPT PLUS**)(Deutsch Version click **[hier](https://chat.openai.com/share/eb717e12-0d0f-4765-87d2-9fbe5fd869b3)**)
 2. Press the "Continue this conversation" button
-3. Use /solve [A Case] to start analysing.
+3. Use /choose + [Number] to get operational support to mine specified opportunity, or /solve + [A Case] to start analysing.
 
 ## 5-minute Video-Tutorial in Youtube: https://youtu.be/4IoIFEKXiGs 
 
 Click [here](https://chat.openai.com/share/b7d99083-add1-4f61-b61d-c2678b53bfe9) to see  a detailed example of how to use PM Assistant ([Deutsch Beispiel hier](https://chat.openai.com/share/aee36a56-4bf2-4c72-abe6-6cc6fc21b9d8)). Please note that the dialogue starts in the middle of the page.
 
-Not have chatGPT-Plus? Never mind, click [here](https://github.com/boiltaimn/pm_assist/blob/main/prompt_set.md) to run PM assistant without it. 
+Not have chatGPT-Plus? Never mind, click [here](https://github.com/finsterniz/pm_assist/blob/main/prompt_set.md) to run PM assistant without it. 
 
 ---
 ## Core-Commands
