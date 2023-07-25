@@ -21,20 +21,22 @@ PM Assistant is structured based on this [repository](https://github.com/JushBJJ
 - [Function Display](#function-display)
 
 ---
-![begin](data/begin1.png)
-
+![begin](data/begin1_1.png)
+![analyze](data/analyze1_1.png)
 ---
-## Why PM Assistant
+## Why Process Mining Assistant
 
-PM Assistant is designed to assist the redesign part of process mining.
+Process Mining Assistant is designed to assist the redesign part of process mining.
 
 It could empower you in several ways:
 
-1. **Solution Generation:** For improvement opportunities identified in process mining, PM Assistant allows you to rapidly generate multiple solutions.
+1. **Operational Support in Process Mining:** For specified improvement opportunities, the Assistant can provide operational support for the software you use, helping you to discover them using the software.
 
-2. **Actionable Steps:** Based on these solutions, the tool is capable of generating concrete implementation steps.
+2. **Solution Generation:** For improvement opportunities identified in process mining, PM Assistant allows you to rapidly generate multiple solutions.
 
-3. **Insightful Trade-offs:** PM Assistant can also provide balanced perspectives on the benefits and drawbacks of each solution, enabling you to foresee the potential outcomes.
+3. **Actionable Steps:** Based on these solutions, the tool is capable of generating concrete implementation steps.
+
+4. **Cost-Benefit Analysis and Visualization:** The Assistant can calculate the estimated costs and potential returns for a detailed implementation plan, and use visualization to help you understand the results.
 
 An exciting discovery we've made is that PM Assistant is not only capable of supporting the redesigning needs in process mining but it can also provide practical solutions, implementation steps, and thoughtful trade-offs for everyday problems you might encounter in life. PM Assistant - a tool designed for process mining, but its utility extends well beyond!
 
@@ -45,20 +47,31 @@ An exciting discovery we've made is that PM Assistant is not only capable of sup
 
 ## Quick Start Guide
 
-1. Click **[this link](https://chat.openai.com/share/daa2ec0e-c650-412f-aa25-e07b74ac4921)** (**MUST HAVE CHATGPT PLUS**)(Deutsch Version click **[hier](https://chat.openai.com/share/21e60491-cadf-444a-b08a-bf185fcda90d)**)
+1. Click **[this link](https://chat.openai.com/share/daa2ec0e-c650-412f-aa25-e07b74ac4921)** (**MUST HAVE CHATGPT PLUS**)(Deutsch Version click **[hier](https://chat.openai.com/share/eb717e12-0d0f-4765-87d2-9fbe5fd869b3)**)
 2. Press the "Continue this conversation" button
 3. Use /solve [A Case] to start analysing.
 
 ## 5-minute Video-Tutorial in Youtube: https://youtu.be/4IoIFEKXiGs 
 
-Click [here](https://chat.openai.com/share/446cd642-11dc-4828-90b9-4695a382121b) to see  a detailed example of how to use PM Assistant ([Deutsch Beispiel hier](https://chat.openai.com/share/795252a5-1228-4f7e-9786-07956f40a27f)). Please note that the dialogue starts in the middle of the page.
+Click [here](https://chat.openai.com/share/b7d99083-add1-4f61-b61d-c2678b53bfe9) to see  a detailed example of how to use PM Assistant ([Deutsch Beispiel hier](https://chat.openai.com/share/aee36a56-4bf2-4c72-abe6-6cc6fc21b9d8)). Please note that the dialogue starts in the middle of the page.
 
 Not have chatGPT-Plus? Never mind, click [here](https://github.com/boiltaimn/pm_assist/blob/main/prompt_set.md) to run PM assistant without it. 
 
 ---
 ## Core-Commands
-### 1. Generate solution for a case
-**/solve [Case]** 
+
+### 1. Operational Support in Process Mining
+**/choose + [Number of Improvement Opportunity]**
+
+You can also use /cho
+
+Example: let GPT give you the guidance to find 5.1 Rework
+```
+/choose 5.1
+```
+
+### 2. Generate solution for a case
+**/solve + [Case]**
 
 Offers solutions for a specific case.
 
@@ -71,8 +84,8 @@ In the loan application process, after the client submits their loan application
 ```
 
 ---
-### 2. Use Heuristics to solve a case
-**/heuristic [List of Heuristics]**
+### 3. Use Heuristics to solve a case
+**/heuristic + [List of Heuristics]**
 
 Utilizes lesser-used GPT heuristics to generate solutions from alternate viewpoints.
 
@@ -83,39 +96,36 @@ Example and set of heuristics:
 https://raw.githubusercontent.com/boiltaimn/pm_assist/main/heuristics.txt
 
 ---
-### 3. Implements the selected solution, identified by its number.
-**/implement [number]**
+### 4. Implements the selected solution, identified by its number.
+**/implement + [number]**
 
 You can also use /imp
 
-Example:
+Example: implement the second solution
 ```bash
-/implement 2  # implement the second solution
+/implement 2
 ```
 
 ---
-### 4. Predicts the potential outcome of a solution
-**/predict [number or solution]**
+### 5. Cost-Benefit Analysis and Visualization
+**/analyze + [some context]**
 
-You can also use /pre
+You can also use /ana
 
-Example:
+Example 1: Analyse without providing initial context
 ```bash
-/predict  # Predict the outcome of the current solution
+/analyze
 ```
+Example 2: Analyse with some initial context
 ```bash
-/predict 2  # Predict the solution with number 2
+/analyze  The company has 200 employees, and I estimate that this solution involves 20 of them. Their average salary is 3,500 euros per month.
 ```
-```bash
-/predict Process Standardization  # Predict the result of "Process Standardization"
-```
----
 ## Other commands
 
 ### 5. Generate some questions
 **/suggestion**
 
-Invite AI to suggest questions based on the current conversation.
+Invite GPT to suggest next command or questions based on the current conversation.
 
 You can also use /sug
 
@@ -126,7 +136,7 @@ Example:
 
 ---
 ### 6. Ask a question
-**/question [...]**
+**/question + [...]**
 
 Presents a question. Questions can also be asked without using the command, but it's recommended to use the command as GPT might occasionally lose its personality without it.
 
@@ -139,7 +149,7 @@ Example:
 
 ---
 ### 7. Manage context 
-**/goto [number i]**
+**/goto + [number i]**
 
 Each round of conversation gets assigned a number. Using this command, you can return to a specific conversation and continue from there. This command enables GPT to forget the conversation that happened after the i-th conversation.
 
@@ -151,7 +161,7 @@ Example: # Go to the third conversation and implement the first solution
 
 ---
 ### 8.Edit configurations
-**/config [configuration]**
+**/config + [configuration]**
 
 Used to set configurations.
 
@@ -161,9 +171,9 @@ Example:
 ```
 ---
 ### 9. Change language
-**/language [...]**
+**/language + [your language]**
 
-Used to switch languages.
+Used to switch languages.d
 
 Tip: PM Assistant performs best when using English.
 
@@ -180,13 +190,15 @@ I would be very grateful if you could help me fill out the survey:
 
 ---
 ## Functions Display
+### /choose Function
+![solve](data/support1_1.png)
 ### /solve Function
-![solve](data/solve1.png)
+![solve](data/solve1_1.png)
 ### /heuristic Function
 ![solve](data/heuristic.png)
 ### /implement Function
 ![implement](data/implement.png)
+### /analyze Function
+![analyze](data/analyze1_1.png)
 ### Guide map Function
-![map](data/map.png)
-### /predict Function
-![predict](data/predict.png)
+![map](data/map1_1.png)
