@@ -1,4 +1,4 @@
-# User Manual for PM Assistant 1.1
+# User Manual for Process Mining Assistant 1.1
 PM Assistant is structured based on this [repository](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/tree/main). Authorization has been obtained from the author of Mr. Ranedeer.
 
 ---
