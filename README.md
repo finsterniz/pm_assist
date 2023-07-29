@@ -38,7 +38,7 @@ It could empower you in several ways:
 
 4. **Cost-Benefit Analysis and Visualization:** The Assistant can calculate the estimated costs and potential returns for a detailed implementation plan, and use visualization to help you understand the results.
 
-An exciting discovery we've made is that PM Assistant is not only capable of supporting the redesigning needs in process mining but it can also provide practical solutions, implementation steps, and thoughtful trade-offs for everyday problems you might encounter in life. PM Assistant - a tool designed for process mining, but its utility extends well beyond!
+An exciting discovery we've made is that PM Assistant is not only capable of supporting the redesigning needs in process mining, but it can also provide practical solutions, implementation steps, and thoughtful trade-offs for everyday problems you might encounter in life. PM Assistant - a tool designed for process mining, but its utility extends well beyond!
 
 ### Example from life:
 
