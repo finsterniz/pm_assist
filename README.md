@@ -4,21 +4,22 @@ PM Assistant is structured based on this [repository](https://github.com/JushBJJ
 ---
 
 ## Table of content
-- [Why PM Assistant](#why-pm-assistant)
+- [Why PM Assistant](#why-process-mining-assistant)
 - [Quick Start Guide](#quick-start-guide)
 - [Core Commands](#core-commands)
-  - [Generate solution for a case](#1-generate-solution-for-a-case)
-  - [Use Heuristics to solve a case](#2-use-heuristics-to-solve-a-case)
-  - [Implements the selected solution](#3-implements-the-selected-solution-identified-by-its-number)
-  - [Predicts the potential outcome of a solution](#4-predicts-the-potential-outcome-of-a-solution)
+  - [Operational Support in Process Mining](#1-operational-support-in-process-mining)
+  - [Generate solution for a case](#2-generate-solution-for-a-case)
+  - [Implements the selected solution, identified by its number](#3-implements-the-selected-solution-identified-by-its-number)
+  - [Cost-Benefit Analysis and Visualization](#4-cost-benefit-analysis-and-visualization)
 - [Other Commands](#other-commands)
-  - [Generate some questions](#5-generate-some-questions)
-  - [Ask a question](#6-ask-a-question)
-  - [Manage context](#7-manage-context)
-  - [Edit configurations](#8edit-configurations)
-  - [Change language](#9-change-language)
+- - [Use Heuristics to solve a case](#5-use-heuristics-to-solve-a-case)
+  - [Generate some questions](#6-generate-some-questions)
+  - [Ask a question](#7-ask-a-question)
+  - [Manage context](#8-manage-context)
+  - [Edit configurations](#9-edit-configurations)
+  - [Change language](#10-change-language)
 - [Feedback](#feedback)
-- [Function Display](#function-display)
+- [Function Display](#functions-display)
 
 ---
 ![begin](data/begin1_1.png)
@@ -84,19 +85,7 @@ In the loan application process, after the client submits their loan application
 ```
 
 ---
-### 3. Use Heuristics to solve a case
-**/heuristic + [List of Heuristics]**
-
-Utilizes lesser-used GPT heuristics to generate solutions from alternate viewpoints.
-
-You can also use /heu
-
-Example and set of heuristics:
-
-https://raw.githubusercontent.com/boiltaimn/pm_assist/main/heuristics.txt
-
----
-### 4. Implements the selected solution, identified by its number.
+### 3. Implements the selected solution, identified by its number.
 **/implement + [number]**
 
 You can also use /imp
@@ -107,7 +96,7 @@ Example: implement the second solution
 ```
 
 ---
-### 5. Cost-Benefit Analysis and Visualization
+### 4. Cost-Benefit Analysis and Visualization
 **/analyze + [some context]**
 
 You can also use /ana
@@ -122,7 +111,19 @@ Example 2: Analyse with some initial context
 ```
 ## Other commands
 
-### 5. Generate some questions
+---
+### 5. Use Heuristics to solve a case
+**/heuristic + [List of Heuristics]**
+
+Utilizes lesser-used GPT heuristics to generate solutions from alternate viewpoints.
+
+You can also use /heu
+
+Example and set of heuristics:
+
+https://raw.githubusercontent.com/boiltaimn/pm_assist/main/heuristics.txt
+
+### 6. Generate some questions
 **/suggestion**
 
 Invite GPT to suggest next command or questions based on the current conversation.
@@ -135,7 +136,7 @@ Example:
 ```
 
 ---
-### 6. Ask a question
+### 7. Ask a question
 **/question + [...]**
 
 Presents a question. Questions can also be asked without using the command, but it's recommended to use the command as GPT might occasionally lose its personality without it.
@@ -148,7 +149,7 @@ Example:
 ```
 
 ---
-### 7. Manage context 
+### 8. Manage context 
 **/goto + [number i]**
 
 Each round of conversation gets assigned a number. Using this command, you can return to a specific conversation and continue from there. This command enables GPT to forget the conversation that happened after the i-th conversation.
@@ -160,7 +161,7 @@ Example: # Go to the third conversation and implement the first solution
 ```
 
 ---
-### 8.Edit configurations
+### 9. Edit configurations
 **/config + [configuration]**
 
 Used to set configurations.
@@ -170,7 +171,7 @@ Example:
 /config Tone Style = Humorous
 ```
 ---
-### 9. Change language
+### 10. Change language
 **/language + [your language]**
 
 Used to switch languages.d
