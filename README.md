@@ -52,7 +52,9 @@ An exciting discovery we've made is that PM Assistant is not only capable of sup
 2. Press the "Continue this conversation" button
 3. Use /choose + [Number] to get operational support to mine specified opportunity, or /solve + [A Case] to start analysing.
 
-## Video-Tutorial in Youtube: https://www.youtube.com/watch?v=Wg3baXoeu8A
+## Video-Tutorial in Youtube: 
+
+https://www.youtube.com/watch?v=Wg3baXoeu8A
 
 Click [here](https://chat.openai.com/share/b7d99083-add1-4f61-b61d-c2678b53bfe9) to see  a detailed example of how to use PM Assistant ([Deutsch Beispiel hier](https://chat.openai.com/share/aee36a56-4bf2-4c72-abe6-6cc6fc21b9d8)). Please note that the dialogue starts in the middle of the page.
 
