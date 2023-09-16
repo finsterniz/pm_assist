@@ -117,3 +117,9 @@ https://chat.openai.com/share/9b9781dc-eb40-44a4-af94-91f56dfa247d
 一个反问模式解决权衡的初版
 https://chat.openai.com/share/2a073b75-8eac-45f1-9a98-820b088df411
 
+4.1 已经有support, analyze的版本
+4.1.1 图画不出来
+https://chat.openai.com/share/369fa67f-8c38-49f5-bb56-6cf5a73a9f9b
+
+4.1.2 看起来还不错
+https://chat.openai.com/share/2118707a-7427-4cb4-a843-6d0254d3da12

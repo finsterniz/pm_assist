@@ -11,8 +11,9 @@ PM Assistant is structured based on this [repository](https://github.com/JushBJJ
   - [Generate solution for a case](#2-generate-solution-for-a-case)
   - [Implements the selected solution, identified by its number](#3-implements-the-selected-solution-identified-by-its-number)
   - [Cost-Benefit Analysis and Visualization](#4-cost-benefit-analysis-and-visualization)
+- [A detailed example](#a-detailed-example)
 - [Other Commands](#other-commands)
-- - [Use Heuristics to solve a case](#5-use-heuristics-to-solve-a-case)
+  - [Use Heuristics to solve a case](#5-use-heuristics-to-solve-a-case)
   - [Generate some questions](#6-generate-some-questions)
   - [Ask a question](#7-ask-a-question)
   - [Manage context](#8-manage-context)
@@ -107,9 +108,15 @@ Example 2: Analyse with some initial context
 ```bash
 /analyze  The company has 200 employees, and I estimate that this solution involves 20 of them. Their average salary is 3,500 euros per month.
 ```
-## Other commands
 
 ---
+## A detailed example
+
+![solve](data/detailed_example.jpg)
+
+---
+## Other commands
+
 ### 5. Use Heuristics to solve a case
 **/heuristic + [List of Heuristics]**
 
