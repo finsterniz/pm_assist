@@ -9,7 +9,7 @@ PM Assistant is structured based on this [repository](https://github.com/JushBJJ
 - [Core Commands](#core-commands)
   - [Operational support in process mining](#1-operational-support-in-process-mining)
   - [Generate solution for a case](#2-generate-solution-for-a-case)
-  - [Implements the selected solution, identified by its number](#3-implements-the-selected-solution-identified-by-its-number)
+  - [Get actionable steps for a selected solution](#3-get-actionable-steps-for-a-selected-solution-identified-by-its-number)
   - [Cost-Benefit analysis and visualization](#4-cost-benefit-analysis-and-visualization)
 - [A Detailed Example](#a-detailed-example)
 - [Other Commands](#other-commands)
@@ -63,7 +63,10 @@ Click [here](https://chat.openai.com/share/b7d99083-add1-4f61-b61d-c2678b53bfe9)
 ### 1. Operational Support in Process Mining
 **/choose + [Number of Improvement Opportunity]**
 
-You can also use /cho
+This command is used to let GPT provide operational guidance to find an improvement opportunity in the selected software. 
+
+
+You can also use its abbreviation "/cho"
 
 Example: let GPT give you the guidance to find 5.1 Rework
 ```
@@ -73,9 +76,11 @@ Example: let GPT give you the guidance to find 5.1 Rework
 ### 2. Generate solution for a case
 **/solve + [Case]**
 
+This command is used to get solutions for an issue found in process mining software. 
+
 Offers solutions for a specific case.
 
-You can also use /sol
+You can also use its abbreviation "/sol"
 
 Example:
 ```bash
@@ -84,10 +89,12 @@ In the loan application process, after the client submits their loan application
 ```
 
 ---
-### 3. Implements the selected solution, identified by its number.
+### 3. Get actionable steps for a selected solution, identified by its number.
 **/implement + [number]**
 
-You can also use /imp
+This command is used to get actionable steps for a solution.
+
+You can also use its abbreviation "/imp"
 
 Example: implement the second solution
 ```bash
@@ -98,7 +105,9 @@ Example: implement the second solution
 ### 4. Cost-Benefit Analysis and Visualization
 **/analyze + [some context]**
 
-You can also use /ana
+This command is used to generate a quantitative analysis of a solution based on the implementation steps. 
+
+You can also use its abbreviation "/ana"
 
 Example 1: Analyse without providing initial context
 ```bash
