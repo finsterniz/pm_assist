@@ -48,7 +48,7 @@ An exciting discovery we've made is that PM Assistant is not only capable of sup
 
 ## Quick Start Guide
 
-1. Click **[this link](https://chat.openai.com/share/24a0d1fe-3d3c-4d33-915b-2556131228f7)** (**MUST HAVE CHATGPT PLUS**)(Deutsch Version click **[hier](https://chat.openai.com/share/eb717e12-0d0f-4765-87d2-9fbe5fd869b3)**)
+1. Click **[this link](https://chat.openai.com/share/858e2760-3606-4077-8e7e-28615126812c)** (**MUST HAVE CHATGPT PLUS**)(Deutsch Version click **[hier](https://chat.openai.com/share/eb717e12-0d0f-4765-87d2-9fbe5fd869b3)**)
 2. Press the "Continue this conversation" button
 3. Use /choose + [Number] to get operational support to mine specified opportunity, or /solve + [A Case] to start analysing.
 
