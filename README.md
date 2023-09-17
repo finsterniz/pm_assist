@@ -73,19 +73,25 @@ Example: let GPT give you the guidance to find 5.1 Rework
 /choose 5.1
 ```
 
-### 2. Generate solution for a case
-**/solve + [Case]**
+### 2. Generate solution for a case/issue
+**/solve + [case/issue]**
 
-This command is used to get solutions for an issue found in process mining software. 
+This command is used to get solutions for an issue found in process mining software. Could also be used to solve all kinds of problems such as everyday problems.
 
 Offers solutions for a specific case.
 
 You can also use its abbreviation "/sol"
 
-Example:
+Example in process mining:
 ```bash
 /solve
 In the loan application process, after the client submits their loan application, the clerk performs three checks in a random order: identity check, verification, and creditworthiness check. If any of these checks fail, the application is rejected. However, since there is no predefined order for conducting the checks, it leads to an issue of overprocessing.
+```
+
+Example in everyday problems:
+```bash
+/solve
+I spend everyday too much time to brew coffee, which is a waste of life.
 ```
 
 ---
