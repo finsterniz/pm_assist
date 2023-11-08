@@ -49,9 +49,19 @@ An exciting discovery we've made is that PM Assistant is not only capable of sup
 
 ## Quick Start Guide
 
-1. Click **[this link](https://chat.openai.com/share/858e2760-3606-4077-8e7e-28615126812c)** (**MUST HAVE CHATGPT PLUS**)(Deutsch Version click **[hier](https://chat.openai.com/share/25ec0afb-5070-46b7-b002-98126d4f24bc)**)
-2. Press the "Continue this conversation" button
-3. Use /choose + [Number] to get operational support to mine specified opportunity, or /solve + [A Case] to start analysing.
+[//]: # ([1. Click **[this link]&#40;https://chat.openai.com/share/858e2760-3606-4077-8e7e-28615126812c&#41;** &#40;**MUST HAVE CHATGPT PLUS**&#41;&#40;Deutsch Version click **[hier]&#40;https://chat.openai.com/share/25ec0afb-5070-46b7-b002-98126d4f24bc&#41;**&#41;)
+
+[//]: # ()
+[//]: # (2. Press the "Continue this conversation" button)
+
+[//]: # ()
+[//]: # (3. Use /choose + [Number] to get operational support to mine specified opportunity, or /solve + [A Case] to start analysing.]&#40;&#41;)
+
+Due to OpenAI's model updates, it is temporarily impossible to use the existing conversation. Currently, the method to use this prompt is:
+
+1. Copy the whole prompt from **[here](https://raw.githubusercontent.com/finsterniz/pm_assist/main/pm_assist.txt)**,
+2. Open ChatGPT, select "Data Analysis" mode,
+3. Paste the prompt copied in step 1 into the dialogue and press Enter to load the prompt.
 
 ## Video-Tutorial in Youtube: https://www.youtube.com/watch?v=Wg3baXoeu8A
 
