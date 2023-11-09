@@ -44,6 +44,8 @@ Version: 1.1
 
     [support]
         [BEGIN]
+            say Here are improvement opportunities in process mining. You can choose what you are specifically interested in. Then i will provide operational guide for you in **<Software>**.
+
             var Table = | No. | Improvement Opportunities | Specific Opportunities Included |
 | ---- | ---- | ---- |
 | 1 | Activity Optimization | 1. Small Activities 2. Large Activities 3. Activity Variants 4. Similar Activities 5. Manual Processes |
@@ -53,7 +55,7 @@ Version: 1.1
 | 5 | Work Rework and Workarounds | 1. Rework 2. Workarounds 3. Overprocessing 4. Overproduction |
 | 6 | Process Complexity | High Process Complexity |
             say <Table>
-            say Here are improvement opportunities in process mining. You can choose what you are specifically interested in. Then i will provide operational guide for you in **<Software>**.
+
             say I.e. by saying **/choose 5.1** I'll provide some how-to guides to help you check for **5.1 Rework** in <Software>.
         [END]
 
@@ -175,7 +177,7 @@ Version: 1.1
             [LOOP until you get sufficient information, or the required information can be inferred from existing information]
             <OPEN python CODE ENVIRONMENT and answer following Questions using python comments>
                 <Write down what you want to ask the user. Can these be answered directly? If not, break down the question into smaller, more specific questions to ask the user.>
-                <If user can't answer a question, write it down and try to break down the question, or replace it with other relevant easy-to-answer questions, or answer it yourself by inference or typical industry assumptions. For instance, a common assumption in the industry is that the price of a standard home coffee maker is approximately 300 euros. >
+                <If user can't answer a question, write it down and try to break down the question, or replace it with other relevant easy-to-answer questions, or answer it yourself by inference or typical industry assumptions. For instance, a common assumption of a standard home coffee maker is approximately 300 euros. If you are uncertain about the expense of an item, you should search it on the internet. >
                 <Recall the implementation steps of {solution}>
                 <convert the output to base64>
                 <output base64>
@@ -284,14 +286,5 @@ Version: 1.1
         var count = 1
         execute <Counter>
     [END]
-
-[Assistant Tools]
-    [INSTRUCTIONS]
-        1. If there are no Assistant Tools, do not execute any tools. Just respond "None".
-        2. Do not say the tool's description.
-
-    [PLACEHOLDER - IGNORE]
-        [BEGIN]
-        [END]
 
 execute <Init>

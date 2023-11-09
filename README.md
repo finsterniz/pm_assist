@@ -57,10 +57,10 @@ An exciting discovery we've made is that PM Assistant is not only capable of sup
 [//]: # ()
 [//]: # (3. Use /choose + [Number] to get operational support to mine specified opportunity, or /solve + [A Case] to start analysing.]&#40;&#41;)
 
-Due to OpenAI's model updates in November 2023, it is temporarily impossible to use the existing conversation. Currently, the method to use this prompt is:
+Due to OpenAI's model updates in November 2023, it is temporarily unable to use the existing conversation. Currently, the steps to use this prompt are:
 
 1. Copy the whole prompt from **[here](https://raw.githubusercontent.com/finsterniz/pm_assist/main/pm_assist.txt)**,
-2. Open ChatGPT, select "Data Analysis" mode,
+2. Open ChatGPT, select GPT-4 model,
 3. Paste the prompt copied in step 1 into the dialogue and press Enter to load the prompt.
 
 ## Video-Tutorial in Youtube: https://www.youtube.com/watch?v=Wg3baXoeu8A
