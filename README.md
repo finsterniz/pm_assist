@@ -65,6 +65,8 @@ To use this prompt, you only need three steps:
 
 ## Video-Tutorial in Youtube: https://www.youtube.com/watch?v=Wg3baXoeu8A
 
+## Demonstration of the latest Version: https://youtu.be/mMbZ1L3FdTc
+
 [//]: # (Click [here]&#40;https://chat.openai.com/share/b7d99083-add1-4f61-b61d-c2678b53bfe9&#41; to see  a detailed example of how to use PM Assistant &#40;[Deutsch Beispiel hier]&#40;https://chat.openai.com/share/aee36a56-4bf2-4c72-abe6-6cc6fc21b9d8&#41;&#41;. Please note that the dialogue starts in the middle of the page.)
 
 ---
